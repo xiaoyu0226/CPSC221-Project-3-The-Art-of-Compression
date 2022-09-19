@@ -93,6 +93,9 @@ ImgTree& ImgTree::operator=(const ImgTree& rhs) {
 ImgTree::~ImgTree() {
   // This implementation has already been completed for you
   Clear();
+
+
+
 }
 
 /**
@@ -102,6 +105,7 @@ ImgTree::~ImgTree() {
 void ImgTree::Clear() {
   // complete your implementation below
   ClearNode(root);
+  
 }
 
 /**
@@ -245,6 +249,7 @@ void ImgTree::FlipHorizontal() {
 void ImgTree::FlipVertical() {
   // complete your implementation below
   MirrorV(root);
+
 }
 
 /**
