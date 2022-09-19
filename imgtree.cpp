@@ -93,9 +93,6 @@ ImgTree& ImgTree::operator=(const ImgTree& rhs) {
 ImgTree::~ImgTree() {
   // This implementation has already been completed for you
   Clear();
-
-
-
 }
 
 /**
